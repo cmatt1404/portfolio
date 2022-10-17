@@ -38,9 +38,9 @@
 /* General styles */
 
 /* endable this to add smooth scrolling */
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 
 body {
@@ -310,10 +310,10 @@ header {
 .section__title--services::after {
     content: '';
     display: block;
-    width: 2em;
-    height: 1px;
+    width: 3em;
+    height: 2px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light);
+    background: var(--clr-accent);
     opacity: 0.25;
 }
 
