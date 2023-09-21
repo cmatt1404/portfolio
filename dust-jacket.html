@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dust Jacket</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+        <style>
+
+            .individual__img{
+                max-width: 100%;
+            }
+
+            .individual__img:hover{
+                scale: 1.4;
+            }  
+
+            .slide__img{
+                max-width:30%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="real-img/logo.png" alt="">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Hand Lettered<strong> Book Cover</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Typographic Design</p>
+            <img src="real-img/dust-jacket-squ.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This was the final project for my typography class where the focus was creating a dust jacket for a book of our choosing using hand-lettered type. We spent time focusing on drawing out the typography and then converting it into a more refined digital copy. </p>
+            <img class="individual__img" src="real-img/Dust-Jacket.png" alt="">
+            <p> This piece was made in December of 2022. The process for this piece was very involved across different media as well as different applications. First, I went and sketched out ideas on paper for what I wanted the front cover to look like. Next, I took my sketch into Illustrator to finalize the hand drawn typography as well as the background for the cover itself. Then, I went into Indesign and layed out all of the rest of the text that is seen on the back cover as well as the flaps that go around the book. The final step was printing and presenting the project.  </p>
+            <div class="fotorama slides">
+                <img class="slide__img" src="real-img/Dust-jacket-front.jpg">
+                <img class="slide__img" src="real-img/dust-jacket-3:4.jpg">
+                <img class="slide__img" src="real-img/dust-jacket-back.jpg">
+              </div>
+            <p>
+                <a href="index.html#work" class="return"> &#8592; My Work</a>
+            </p>
+        </div>
+        
+        
+        
+     <!-- Footer -->
+     <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:cmatt1404@gmail.com" class="footer__link">cmatt1404@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/cislom1/pens/public" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li> -->
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li> -->
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/cmatt1404" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/mopt.ii/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/matthewcislo">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li> -->
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/matthewcislo" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>

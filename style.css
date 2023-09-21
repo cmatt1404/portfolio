@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+/* -------------Custom Properties, update these for your own design -------------*/
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -35,9 +35,9 @@
     }
 }
 
-/* General styles */
+/* -------------General styles------------- */
 
-/* endable this to add smooth scrolling */
+/* -------------enable this to add smooth scrolling------------- */
 html {
     scroll-behavior: smooth;
 }
@@ -68,7 +68,7 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
-/* Buttons */
+/* -------------Buttons -------------*/
 
 .btn {
     display: inline-block;
@@ -88,7 +88,7 @@ strong { font-weight: var(--fw-bold) }
     transform: scale(1.1);
 }
 
-/* Typography */
+/* ----------------Typography------------- */
 
 h1,
 h2,
@@ -133,7 +133,7 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 
-/* header */
+/* -------------header------------- */
 
 header {
     display: flex;
@@ -212,11 +212,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -232,7 +227,6 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-
 .hamburger::before,
 .hamburger::after {
     content: '';
@@ -245,7 +239,7 @@ header {
 .hamburger::after { bottom: 6px; }
 
 
-/*  Intro section  */
+/* ------------- Intro section ------------- */
 
 .intro {
     position: relative;
@@ -291,7 +285,7 @@ header {
 
 
 
-/*  My services section  */
+/* ------------- My services section ------------- */
 
 .my-services {
     background-color: var(--clr-dark);
@@ -381,7 +375,7 @@ header {
     }
 }
 
-/* My Work */
+/*------------- My Work------------- */
 
 .my-work {
     background-color: var(--clr-dark);
@@ -407,6 +401,7 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        aspect-ratio: 1/1;
 }
 
 .portfolio__item:focus {
@@ -438,7 +433,7 @@ header {
     border: 2px solid var(--clr-accent);
 }
 
-/* footer */
+/* -------------footer -------------*/
 
 .footer {
     background: #111;
@@ -484,7 +479,7 @@ header {
 }
 
 
-/* Individual portfolio item styles */
+/* -------------Individual portfolio item styles------------- */
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
@@ -500,21 +495,24 @@ header {
 }
 
 .portfolio-item-individual p {
-    max-width: 600px;
+    max-width: 70%;;
     margin-left: auto;
     margin-right: auto;
 }
 
 .individual__img{
     /* max-height: 90vh; */
-    max-width: 80%;
+    max-width: 60%;
     margin-top:2em;
     margin-bottom: 2em;
+    transition:all 200ms ease
 }
+
+
 
 .slides{
      /* max-height: 90vh; */
-     max-width: 50%;
+     max-width: 60%;
      margin-top:2em;
      margin-bottom: 2em;
      margin: 0 auto;
